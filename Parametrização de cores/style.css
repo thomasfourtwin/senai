@@ -1,0 +1,45 @@
+img {
+    width: 50px;
+}
+
+body {
+    background-color: var(--fundo);
+}
+
+h1 {
+    color: var(--texto_h1);
+    font-size: var(--tamanho_fonte);
+}
+
+h2 {
+    color: var(--texto_h2);
+    font-size: var(--tamanho_fonte);    
+}
+
+.inicial {
+    --fundo: silver;
+    --texto_h1: black;
+    --texto_h2: red;
+    --tamanho_fonte: 20px;
+}
+
+.azul {
+    --fundo: lightblue;
+    --texto_h1: blue;
+    --texto_h2: darkblue;
+    --tamanho_fonte: 2 5px;
+}
+
+.verde {
+    --fundo: lightgreen;
+    --texto_h1: green;
+    --texto_h2: darkgreen;
+    --tamanho_fonte: 2 5px;
+}
+
+.vermelho {
+    --fundo: firebrick;
+    --texto_h1: red;
+    --texto_h2: darkred;
+    --tamanho_fonte: 2 5px;
+}
